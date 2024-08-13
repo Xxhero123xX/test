@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/1263988670990651424/1272216840420069508/New_Project.png?ex=66ba2bc3&is=66b8da43&hm=aac8c1a43b84cb149fcaa3c251a5488365f50b4dbc840f62bdda41d88dd7a848&=&format=webp&quality=lossless&width=449&height=449">
+    <title>Recipes of Minecraft</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;  
+    padding: 0;
+    background: url(_8a6bce1a-d108-4a96-bf50-bc92ec195a53.jpg);
+}
+
+.text1 {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 0px 0;
+
+    color: blue;
+}
+
+.input {
+    font-size: 30px;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.input:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.item-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.item-name {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.home{
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 30px;
+    color: #ddd;
+    margin-left: 20px;
+
+}
+.home:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+    </style>
+</head>
+<p><a href="#" class="home">Home</a></p>
+<body>
+    <p class="text1">
+        Search for the item you want</p>
+    <input class="input" type="text" id="searchInput" placeholder="Search..." oninput="searchItems()">
+
+    <div class="item-list" id="itemList">
+        <div class="item">
+            <img class="item-image" src="./image/pickaxe.gif" alt="Pickaxe">
+            <p class="item-name">Pickaxe</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="image/axe.gif" alt="Axe">
+            <p class="item-name">Axe</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="image/shovel.png" alt="Shovel">
+            <p class="item-name">Shovel</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="image/sword.gif" alt="Sword">
+            <p class="item-name">Sword</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="image/hoe.gif" alt="Hoe">
+            <p class="item-name">Hoe</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="image/stick.gif" alt="Stick">
+            <p class="item-name">Stick</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="image/ow.gif" alt="Bow">
+            <p class="item-name">Bow</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="image/arrow.gif" alt="Arrow">
+            <p class="item-name">Arrow</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="image/Andesite.gif" alt="Arrow">
+            <p class="item-name">Andesite</p>
+        </div>
+        <div class="zaid">
+            <img class="item-image" src="image/bucjet.gif" alt="Arrow">
+            <p class="item-name">Bucket</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="image/chears.gif" alt="Arrow">
+            <p class="item-name">Chears</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="cobblestone Slab.gif" alt="Arrow">
+            <p class="item-name">Cobblestone Slab</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="cobblestone wall gif.gif" alt="Arrow">
+            <p class="item-name">Cobblestone Wall</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="compass.gif" alt="Arrow">
+            <p class="item-name">Compass</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="flint and steel.gif" alt="Arrow">
+            <p class="item-name">Flint and Steel</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="furnace.gif" alt="Arrow">
+            <p class="item-name">Furnacre</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="minecart.gif" alt="Arrow">
+            <p class="item-name">Minecart</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="moss cobblestone.gif" alt="Arrow">
+            <p class="item-name">Moss Cobblestone</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="polished andesite.gif" alt="Arrow">
+            <p class="item-name">Polished Andesite</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="powered rail.gif" alt="Arrow">
+            <p class="item-name">Powered Rail</p>
+        </div>
+        <div class="item">
+            <img class="item-image" src="rail.gif" alt="Arrow">
+            <p class="item-name">Rail</p>
+        </div>
+
+    </div>
+
+    <script src="sk/java.js"></script>
+</body>
+</html>
